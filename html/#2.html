@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/bootstrap.min.js">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+    <table class=" table table-dark table-striped"> <br>
+        
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@twitter</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@twitter</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@mdo</td>
+                <td>@twitter</td>
+                <td>@mdo</td>
+              </tr> 
+              <tr>
+                <th scope="row">4</th>
+                <td>@twitter</td>
+                <td>@fb</td>
+                <td>@mdc</td>
+                <td>@twitter</td>
+                <td>@mdvs</td>
+              </tr>
+            </tbody>
+            
+          </table>
+    <button type="button" class="  btn btn-primary data-bs-toggel"  data-bs-toggle="modal" data-bs-target="#Mymodal">Nuevo</button>
+    <button type="button" class="  btn btn-secondary">Editar registro</button>
+    <button type="button" class="  btn btn-secondary">Eliminar</button>
+    
+   <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Mymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="name">nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre"><br><br>
+            <label for="Paterno">Apellido paterno:</label>
+            <input type="text" name="Apellido"  placeholder="Escribe tu apellido">><br><br>
+            <label for="Materno">Apellido Materno:</label>
+            <input type="text" name="Apellido"  placeholder="Escribe tu apellido">><br><br>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione Sexo</option>
+                <option value="1">Femenino</option>
+                <option value="2">Masculino</option>
+                
+              </select>
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+</div>
+<script src="../js/bootstrap.min.js"></script> 
+</body>
+</html>
+ <!--Marco Jair Rosales Marquez-->
